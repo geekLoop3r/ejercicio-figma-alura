@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #000000;
+    min-height: 100vh; /*Esto es clave aplicar al contenedor padre para poder centrar un div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    height: 100%;
+    /* background-color: #636e72; */
+    display: flex;
+    gap: 50px;
+}
+
+.contenedor-parrafos-botones{
+    width: 615px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+/* Botones */
+.botones{
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+button{
+    width: 280px;
+    height: 79px;
+    font-family: "Montserrat";
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #22D4FD;
+    border: 0;
+    border-radius: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Parrafos */
+
+.parrafos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.primer-parrafo{
+    width: 593px;
+    color: #F6F6F6;
+    font-family: "Krona One", sans-serif;
+    font-size: 36px;
+}
+
+.text-blue{
+    color: #22D4FD;
+}
+
+.segundo-parrafo{
+    width: 593px;
+    color: #F6F6F6;
+    font-family: "Montserrat";
+    font-size: 24px;
+}
+
+
+/* Imagenes */
+img{
+    width: 467.71px;
+    height: 532px;
+}
